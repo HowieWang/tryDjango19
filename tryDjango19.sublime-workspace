@@ -1,0 +1,626 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"sni",
+				"snippet_highlight	statement"
+			],
+			[
+				"user",
+				"user_detail	statement"
+			],
+			[
+				"snip",
+				"snippet_detail	statement"
+			],
+			[
+				"snipp",
+				"snippet_list	statement"
+			],
+			[
+				"Snipp",
+				"SnippetViewSet	class"
+			],
+			[
+				"IsAuthen",
+				"IsAuthenticatedOrReadOnly	class"
+			],
+			[
+				"reverse",
+				"reverse	function"
+			],
+			[
+				"response",
+				"Response	class"
+			],
+			[
+				"for",
+				"formatters	module"
+			],
+			[
+				"SNi",
+				"SnippetDetail	class"
+			],
+			[
+				"Snippet",
+				"SnippetList	class"
+			],
+			[
+				"ap",
+				"APIView	class"
+			],
+			[
+				"Ht",
+				"Http404	class"
+			],
+			[
+				"form",
+				"format_suffix_patterns	function"
+			],
+			[
+				"url",
+				"urlpatterns	statement"
+			],
+			[
+				"fr",
+				"format_suffix_patterns	function"
+			],
+			[
+				"H",
+				"HTTP_400_BAD_REQUEST	statement"
+			],
+			[
+				"HTT",
+				"HTTP_404_NOT_FOUND	statement"
+			],
+			[
+				"JSO",
+				"JSONResponse	class"
+			],
+			[
+				"Sni",
+				"SnippetSerializer	class"
+			],
+			[
+				"SNI",
+				"SnippetSerializer	class"
+			],
+			[
+				"JSON",
+				"JSONParser	class"
+			],
+			[
+				"SNipp",
+				"SnippetSerializer	class"
+			],
+			[
+				"JS",
+				"JSONResponse	class"
+			],
+			[
+				"Js",
+				"JSONParser	class"
+			],
+			[
+				"rest",
+				"rest_framework	module"
+			],
+			[
+				"Http",
+				"HttpResponse	class"
+			],
+			[
+				"Model",
+				"ModelSerializer	class"
+			],
+			[
+				"def",
+				"default	NOT_PROVIDED"
+			],
+			[
+				"ho",
+				"hostMaster	module"
+			],
+			[
+				"add",
+				"add_info	function"
+			],
+			[
+				"all",
+				"all_data	statement"
+			],
+			[
+				"reu",
+				"request	param"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"host",
+				"hostname"
+			],
+			[
+				"inst",
+				"insertAfter〔function〕"
+			],
+			[
+				"parse",
+				"parseJSON〔function〕"
+			],
+			[
+				"dum",
+				"dumps	function"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"data",
+				"data_tuple	statement"
+			],
+			[
+				"file",
+				"file_obj	statement"
+			],
+			[
+				"Em",
+				"EmailField	class"
+			],
+			[
+				"Da",
+				"DateTimeField	class"
+			],
+			[
+				"S",
+				"SampleImportForm"
+			],
+			[
+				"ch",
+				"check_session"
+			],
+			[
+				"chck",
+				"checked"
+			],
+			[
+				"chec",
+				"checkbox"
+			],
+			[
+				"test",
+				"testProcess	function"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"rev",
+				"reverseWords	function"
+			],
+			[
+				"div",
+				"divRss15"
+			],
+			[
+				"child",
+				"children〔function〕"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"se",
+				"selectRev"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"sub",
+				"submitForm〔function〕"
+			],
+			[
+				"new",
+				"new_list〔variable〕"
+			],
+			[
+				"prev",
+				"prevAll〔function〕"
+			],
+			[
+				"type",
+				"type	Attr"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"par",
+				"parent〔function〕"
+			],
+			[
+				"sr",
+				"script	Tag"
+			],
+			[
+				"base",
+				"BASE_DIR	statement"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previ",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/howie/code/tryDjango19"
+	],
+	"file_history":
+	[
+		"/Users/howie/我的坚果云/0-oldboy课程/作业学生/yangli/s13_net/day05/my_calculator.py",
+		"/Users/howie/我的坚果云/0-oldboy课程/作业学生/juzi/homework.20161008.py",
+		"/Users/howie/git/bootstrap3Study/base.html",
+		"/Users/howie/git/bootstrap3Study/format.html",
+		"/Users/howie/Desktop/howeblue打印/howeblue打印清单.txt",
+		"/Users/howie/Documents/sed and awk.mdown",
+		"/Users/howie/Downloads/views.py",
+		"/Users/howie/svn/stu196181/day24/sublimeCMDB/readme.md",
+		"/Users/howie/svn/stu196181/day23/readme.md",
+		"/Users/howie/stu196181/study/restapi/restapi/settings.py",
+		"/Users/howie/stu196181/study/restapi/restapi/urls.py",
+		"/Users/howie/stu196181/study/restapi/snippets/urls.py",
+		"/Users/howie/stu196181/study/restapi/api/models.py",
+		"/Users/howie/stu196181/study/restapi/readme.md",
+		"/Users/howie/stu196181/study/restapi/snippets/views_func.py",
+		"/Users/howie/stu196181/study/noah/core/web_qy/web_manage/views/hosts.py",
+		"/Users/howie/stu196181/study/noah/core/web_qy/web_manage/bll/describe_Routers.py",
+		"/Users/howie/stu196181/study/noah/core/web_qy/web_manage/views/issus.py",
+		"/Users/howie/git/chineking-chineblog-b58002cbfa72/autorun.py",
+		"/Users/howie/svn/stu196181/day19/templates/asset/lists.html",
+		"/Users/howie/svn/stu196181/day19/readme.md",
+		"/Users/howie/svn/stu196181/day19/templates/asset/import_single.html",
+		"/Users/howie/svn/stu196181/day16/study/edit_row_wu.js",
+		"/Users/howie/svn/stu196181/day19/static/js/edit_row.js",
+		"/Users/howie/svn/stu196181/day19/templates/home/index.html",
+		"/Users/howie/svn/stu196181/day19/hostMaster/models.py",
+		"/Users/howie/svn/stu196181/day19/hostMaster/templates/host/index.html",
+		"/Users/howie/svn/stu196181/day19/hostMaster/views/home.py",
+		"/Users/howie/svn/stu196181/day19/static/js/common.js",
+		"/Users/howie/svn/stu196181/day19/static/js/userinfo/user_group.js",
+		"/Users/howie/svn/stu196181/day19/static/js/userinfo/user.js",
+		"/Users/howie/svn/stu196181/day19/hostMaster/forms/hosts.py",
+		"/Users/howie/svn/stu196181/day19/hostMaster/views/account.py",
+		"/Users/howie/svn/stu196181/day19/hostMaster/urls.py",
+		"/Users/howie/svn/stu196181/day19/templates/account/login.html",
+		"/Users/howie/svn/stu196181/day18/cmdb/models.py",
+		"/Users/howie/svn/stu196181/day19/cmdb/models.py",
+		"/Users/howie/svn/stu196181/day19/manage.py",
+		"/Users/howie/svn/stu196181/day19/src/wsgi.py",
+		"/Users/howie/svn/stu196181/day19/s11day19/urls.py",
+		"/Users/howie/svn/stu196181/day19/hostMaster/forms/account.py",
+		"/Users/howie/svn/stu196181/day19/s11day19/settings.py",
+		"/Users/howie/stu196181/s11day19/templates/account/login.html",
+		"/Users/howie/stu196181/s11day19/hostMaster/templates/host/index.html",
+		"/Users/howie/stu196181/s11day19/s11day19/urls.py",
+		"/Users/howie/stu196181/s11day19/app01/urls.py",
+		"/Users/howie/stu196181/s11day19/hostMaster/urls.py",
+		"/Users/howie/dj-venv/readme.md",
+		"/Users/howie/我的坚果云/saeBackup/sothislove.wordpress.2016-03-23.xml",
+		"/Users/howie/我的坚果云/weixin-运维前线群.html",
+		"/Users/howie/dj-venv/dj19/proj/app01/admin.py",
+		"/Users/howie/dj-venv/dj19/proj/app01/models.py",
+		"/Users/howie/dj-venv/dj19/proj/app01/urls.py",
+		"/Users/howie/dj-venv/dj19/proj/templates/home/upload.html",
+		"/Users/howie/dj-venv/dj19/proj/app01/views/home.py",
+		"/Users/howie/Desktop/cnblogs文章添加目录.md",
+		"/Users/howie/dj-venv/dj19/proj/readme.md",
+		"/Users/howie/dj-venv/dj19/proj/proj/settings.py",
+		"/Users/howie/dj-venv/dj19/dj19.sublime-project",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_homework/cmdb/views.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_homework/cmdb/models.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_form/manage.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_homework/templates/include/header_menu.html",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_homework/cmdb/templatetags/form_tag.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_homework/cmdb/urls.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_homework/templates/master/layout.html",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18/app01/urls.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18/templates/home.html",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18/app01/views.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_homework/cmdb/admin.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_form/app01/views.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_homework/cmdb/forms.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_form/templates/user_list.html",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_homework/templates/account/login.html",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_form/app01/models.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_homework/templates/account/register.html",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_homework/manage.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18/s11day18/urls.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18/manage.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18_form/s11day18_form/urls.py",
+		"/Users/howie/百度云同步盘/mac/s11day18课上代码/s11day18/templates/login.html",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Packages/User/Terminal (OSX).sublime-settings",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/Default.sublime-commands",
+		"/Users/howie/Desktop/dj165.sublime-project",
+		"/Users/howie/svn/stu196181/day17/readme.md",
+		"/Users/howie/svn/stu196181/day16/readme.md",
+		"/Users/howie/我的坚果云/jsStudy/tools/cmdb_plugin/s11day15/homework.html",
+		"/Users/howie/stu196181/day15/study/tab-menu.html",
+		"/Applications/securecrt_mac_crack.pl",
+		"/Users/howie/百度云同步盘/desktop.md",
+		"/Users/howie/ub.sh",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/templates/python.tmpl",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/SublimeTmpl.sublime-settings",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/Main.sublime-menu",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Installed Packages/SublimeTmpl.sublime-package",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/sublime-tmpl.py",
+		"/Users/howie/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/howie/test.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<project>",
+			"/Users/howie/svn/stu196181/day19",
+			"/Users/howie/svn/stu196181"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"目录",
+			"排版",
+			"script",
+			"),\n",
+			"request.user",
+			"api_auth_check",
+			"chuliqi",
+			"courserecord",
+			"UserProfile",
+			"edit_mode_target",
+			"TableEditMode",
+			"进入编辑模式",
+			"validate_ipv4",
+			"\n    ",
+			"),\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 189.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "/Users/howie/code/tryDjango19/tryDjango19.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"data",
+				"monitor/backends/data_optimization.py"
+			],
+			[
+				"url",
+				"restapi/urls.py"
+			],
+			[
+				"settins",
+				"restapi/settings.py"
+			],
+			[
+				"urls",
+				"restapi/urls.py"
+			],
+			[
+				"models",
+				"snippets/models.py"
+			],
+			[
+				"model",
+				"api/models.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
