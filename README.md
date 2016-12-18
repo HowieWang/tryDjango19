@@ -1,6 +1,6 @@
 # learning django from youtube-Try Django 1.9
 
-using folder 01 02 03...to save each lesson.
+using folder 01 02 03...to save each part based on the main features of django,
 and the folder code is always for the current code.
 
 so i have to cp the whole code to rename 01,02...
