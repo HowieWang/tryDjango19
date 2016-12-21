@@ -4,3 +4,11 @@
 - in url, (?P<id>\d+)
 - in view function, add id=None after request, pk or id shoule followed the pattern in url,
 that is a named parameter
+
+
+## error
+
+```
+posts.models.DoesNotExist: Post matching query does not exist.
+[21/Dec/2016 17:21:17] "GET /posts/detail/99/ HTTP/1.1" 500 79397
+```
