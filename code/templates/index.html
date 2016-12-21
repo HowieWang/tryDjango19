@@ -7,9 +7,10 @@
 <body>
     <h1>{{ title }} is here!</h1>
     {% for obj in obj_list %}
-    <p>{{ obj.title }}
-    {{ obj.content }}
-    {{ obj.updated }}</p>
+    <a href="/posts/{{ obj.id }}/">{{ obj.title }}</a>  <br>
+    {{ obj.id }}    <br>
+    {{ obj.content }}    <br>
+    {{ obj.updated }}    <br>
     {% endfor %}
 </body>
 </html>
