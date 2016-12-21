@@ -6,5 +6,11 @@
 </head>
 <body>
     {{ title }} is here!
+    {{ obj_list }}
+    {% for obj in obj_list %}
+    {{ obj.title }}
+    {{ obj.content }}
+    {{ obj.updated }}
+    {% endfor %}
 </body>
 </html>

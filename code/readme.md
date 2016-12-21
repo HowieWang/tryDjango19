@@ -1,5 +1,24 @@
 # queryset
 
+## debug in vscode
+
+- add python path, env is ok, windows using \\
+- --reload is default for debug, so keep it
+
+```
+            "name": "Django",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": true,
+            "pythonPath": "${config.python.pythonPath}",
+            "program": "${workspaceRoot}/code/manage.py",
+            "cwd": "${workspaceRoot}",
+            "args": [
+                "runserver",
+                "--noreload"
+            ],
+```
+
 ## shell
 
 ```
@@ -22,6 +41,33 @@ __contains
 
 - detail
 - new page of detail
+
+## errors
+
+> IntegrityError: NOT NULL constraint failed: posts_post.timestamp
+- null=True
+
+```
+IntegrityError: NOT NULL constraint failed: posts_post.timestamp
+
+In [3]: Post.objects.create(title='haha', content='lalalllaa')
+Out[3]: <Post: haha>
+
+In [4]: Post.objects.create(title='haha', content='lalalllaa')
+Out[4]: <Post: haha>
+
+In [5]: Post.objects.create(title='haha', content='lalalllaa')
+Out[5]: <Post: haha>
+
+In [6]: Post.objects.create(title='haha', content='lalalllaa')
+Out[6]: <Post: haha>
+
+In [7]: Post.objects.create(title='haha', content='lalalllaa')
+Out[7]: <Post: haha>
+
+In [8]: Post.objects.all()
+Out[8]: <QuerySet [<Post: title>, <Post: haha>, <Post: haha>, <Post: haha>, <Post: haha>, <Post: haha>]>
+```
 
 ------
 > later:

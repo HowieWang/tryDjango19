@@ -1,5 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from .models import Post
+
 
 # Create your views here.
 def posts_page(request):
@@ -7,7 +9,13 @@ def posts_page(request):
 
 
 def all(request):
+    """
+    return all list
+    """
+    obj_list = Post.objects.all()
+    print(obj_list[0])
     content = {
+        'obj_list': obj_list,
         'title':'all list'
     }
 
