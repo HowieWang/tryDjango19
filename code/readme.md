@@ -6,6 +6,12 @@
 that is a named parameter, change it to see the result 
 
 
+## add href in index
+
+    <a href="/posts/{{ obj.id }}/">{{ obj.title }}</a>  <br>
+
+
+
 ## error
 
 ```
