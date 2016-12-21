@@ -12,3 +12,4 @@ that is a named parameter
 posts.models.DoesNotExist: Post matching query does not exist.
 [21/Dec/2016 17:21:17] "GET /posts/detail/99/ HTTP/1.1" 500 79397
 ```
+- using get_object_or_404 to fix it.

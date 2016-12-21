@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from .models import Post
 
 
@@ -37,10 +37,11 @@ def detail(request, id=None):
     # return HttpResponse("<h1>sublime detail</h1>")
 
     # 1. get a class
-    obj = Post.objects.get(id=id)
+    # obj = Post.objects.get(id=id)  # does not exist? 
+    obj = get_object_or_404(Post, id=id)
     print(type(obj))  # <class 'posts.models.Post'>
 
-    # 2. return obj
+    # 2. return obj, without ''!!!!!
     content = {
         'title': 'detail-page',
         'obj': obj
