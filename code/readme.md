@@ -30,6 +30,9 @@ http://v3.bootcss.com/getting-started/#download
 
 ## modify list page
 
+[http://v3.bootcss.com/components/#thumbnails-custom-content](http://v3.bootcss.com/components/#thumbnails-custom-content)
+
+
 ![](./static/img/postlist.png)
 
 ## modify form page
