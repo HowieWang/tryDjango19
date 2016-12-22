@@ -12,9 +12,9 @@ that is a named parameter, change it to see the result
 
 ##  dynamic url
 
-- name 
-- get_absolute_url
-- namespace
+- name , remove hardcoded in html
+- get_absolute_url, reverse, move the name change to backend models, html doesn't need to change
+- namespace, keep url in app home
 
 ## error
 
