@@ -2,14 +2,26 @@
 {% block content %}
 
 
-    <h1>{{ title }} is here!</h1>
-    {% for obj in obj_list %}
-    <a href="/posts/{{ obj.id }}/">{{ obj.title }}</a>  <br>
-    {{ obj.id }}    --------------------<br>
-    {{ obj.content }}    <br>
-    {{ obj.updated }}    <br>
-    {% endfor %}
+<h1>{{ title }} </h1>
 
+{% for obj in obj_list %}
 
+<div class="row">
+  <div class="col-sm-12">
+    <div class="thumbnail">
+      <div class="caption">
+        <h3>
+            <a href="/posts/{{ obj.id }}/">{{ obj.title }}</a> 
+            <small>  {{ obj.updated |timesince }}</small>
+        </h3>
+        <h4>obj.updated |timesince 非常好用</h4>
+        内容| 分行 | 截取100字符
+        <p>{{ obj.content | linebreaks | truncatechars:100 }} </p>
+        <p><a href="/posts/{{ obj.id }}/" class="btn btn-primary" role="button">View</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
 
 {% endblock %} 
