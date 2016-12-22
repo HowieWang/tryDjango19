@@ -1,6 +1,15 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
+
+
+{% block style %}
+<link rel="stylesheet" href="{% static '/css/my.css' %}">
+{% endblock %}
+
 
 {% block content %}
+    <h1>form should be gray</h1>
+
     <form action="" method="POST">  {% csrf_token %} 
         {{ form.as_p }}
         <input type="submit" value="create">

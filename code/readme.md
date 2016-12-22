@@ -24,3 +24,24 @@ STATICFILES_DIRS in settings
 add debug in urls.py
 
 ---
+
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static_cdn')
+
+---
+change <link rel="stylesheet" href="/static/css/my.css">
+to
+<link rel="stylesheet" href="{% static '/css/my.css' %}">
+
+
+---
+
+
+---
+## error
+
+```
+{% load staticfiles %}
+{% extends 'base.html' %}
+```
+TemplateSyntaxError at /posts/create/
+<ExtendsNode: extends 'base.html'> must be the first tag in the template.
