@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>templates</title>
-</head>
-<body>
-    <h1>{{ title }} is here!</h1>
-    {{ obj.id }} <br>
-    {{ obj.title }} <br>
-    {{ obj.content }} <br>
-    {{ obj.updated }} <br>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title_head %}
+    <title>{{ title }}</title>
+{% endblock %}
+
+{% block content %}
+
+<div class="col-sm-6 col-sm-offset-3">
+   <h1> {{ obj.title }} <small>{{ obj.updated }}</small> </h1>
+    {{ obj.content | linebreaks }} <br>
+</div>
+{% endblock %}
