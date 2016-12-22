@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render, get_object_or_404
+from .forms import PostForm
 from .models import Post
 
 
@@ -26,11 +27,16 @@ def all(request):
 
 def create(request):
     # return HttpResponse("<h1>create</h1>")
+    # check the POST
+    form = PostForm()
+    if request.method == 'POST':
+        print(request.POST)
+
     content = {
-        'title': 'create'
+        'form': form
     }
 
-    return render(request, 'index.html', content)
+    return render(request, 'form.html', content)
 
 
 def detail(request, id=None):
