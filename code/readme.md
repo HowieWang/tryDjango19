@@ -1,16 +1,14 @@
-# order and pagination
+# filefield, image upload
 
-## order
+## add filefield in model
 
-- order_by in view
-        obj_list = Post.objects.all().order_by("-updated")
+remember to makemigrations and migrate
 
-- using Meta in model
-        class Meta:
-            ordering = ["-timestamp", "-updated"]
+## ImageField
 
----
-## paginator
-
-https://docs.djangoproject.com/en/1.10/topics/pagination/
-
+- add ImageField to model
+- pip install pillow
+- upload_to defined based on url settings
+- filename can be changed
+- html add enctype
+- 
