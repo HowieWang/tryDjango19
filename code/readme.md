@@ -1,47 +1,35 @@
-# static
+#  Implement Bootstrap
 
-[https://www.youtube.com/watch?v=YH-ipgxlJzs&index=25&list=PLEsfXFp6DpzQFqfCur9CJ4QnKQTVXUsRy](https://www.youtube.com/watch?v=YH-ipgxlJzs&index=25&list=PLEsfXFp6DpzQFqfCur9CJ4QnKQTVXUsRy)
+## download Bootstrap, and add it to the base.html
+http://v3.bootcss.com/getting-started/#download
+```
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.9/howto/static-files/
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
 
-STATIC_URL = '/static/'
-Your project will probably also have static assets that aren’t tied to a particular app. In addition to 
-using a static/ directory inside your apps, you can define a list of directories (STATICFILES_DIRS)
- in your settings file where Django will also look for static files. For example:
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 
- ```
- STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-    '/var/www/static/',
-]
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 ```
 
----
-STATICFILES_DIRS in settings
-
----
-add debug in urls.py
-
----
-
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static_cdn')
-
----
-change <link rel="stylesheet" href="/static/css/my.css">
-to
-<link rel="stylesheet" href="{% static '/css/my.css' %}">
-
-
----
-
-
----
-## error
+## modify in detail page
 
 ```
-{% load staticfiles %}
-{% extends 'base.html' %}
+{% block content %}
+
+<div class="col-sm-6 col-sm-offset-3">
+   <h1> {{ obj.title }} <small>{{ obj.updated }}</small> </h1>
+    {{ obj.content | linebreaks }} <br>
+</div>
+{% endblock %}
 ```
-TemplateSyntaxError at /posts/create/
-<ExtendsNode: extends 'base.html'> must be the first tag in the template.
+
+## modify list page
+
+![](./static/img/postlist.png)
+
+## modify form page
