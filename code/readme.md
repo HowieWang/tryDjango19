@@ -51,3 +51,12 @@ also in html, every time get a new one：
     <input type="hidden" name="csrfmiddlewaretoken"
      value="PUaaCONf63Wiou45KVGJa9K9Sxx4GmRoMUWpM1IgdV9Brys3rofr1Cx6Y4HI2k8z">
 ```
+6. put request.POST just in form 
+    This field is required.
+    add or None to get rid of it.
+
+7. if form.is_valid():
+
+8. form.cleaned_data
+
+9. update page, then redirect url

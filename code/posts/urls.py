@@ -11,5 +11,5 @@ urlpatterns=[
     url(r'^(?P<id>\d+)/$', views.detail),  # get detail
     
     url(r'^delete/$', views.delete),  # detele
-    url(r'^update/$', views.update),  # update
+    url(r'^(?P<id>\d+)/edit/$', views.update, name='update'),  # update
 ] 

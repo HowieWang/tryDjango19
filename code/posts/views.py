@@ -28,9 +28,16 @@ def all(request):
 def create(request):
     # return HttpResponse("<h1>create</h1>")
     # check the POST
-    form = PostForm()
-    if request.method == 'POST':
-        print(request.POST)
+    form = PostForm(request.POST or None)
+    if form.is_valid():
+        print(form.cleaned_data.get('title'))
+        instance = form.save(commit=False)
+        instance.save()
+
+    # if request.method == 'POST':
+    #     print('content', request.POST.get('content'))
+    #     print('title', request.POST.get('title'))
+    #     # Post.objects.create(title=...)
 
     content = {
         'form': form
@@ -56,13 +63,21 @@ def detail(request, id=None):
     return render(request, 'detail.html', content)
 
 
-def update(request):
+def update(request, id=None):
     # return HttpResponse("<h1>update 123</h1>")
+    obj = get_object_or_404(Post, id=id)
+    form = PostForm(request.POST or None, instance=obj)
+    if form.is_valid():
+        print(form.cleaned_data.get('title'))
+        instance = form.save(commit=False)
+        instance.save()
+
     content = {
-        'title': 'update'
+        'title': 'update',
+        'form': form
     }
 
-    return render(request, 'index.html', content)
+    return render(request, 'form.html', content)
 
 
 def delete(request):
